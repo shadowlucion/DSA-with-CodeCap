@@ -42,7 +42,7 @@ class Solution:
 # Recursive Optimized Solution
 class Solution:
     def cutRod(self, price, N):
-    dp = {}   
+        dp = {}   
         def solve(rl):
             if rl==0:
                 return 0 
